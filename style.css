@@ -1,0 +1,195 @@
+body {
+    color: ghostwhite;
+
+}
+a{
+    text-decoration: none;
+    color:ghostwhite;
+}
+a:hover{
+    color:ghostwhite;
+}
+
+.container-fluid.main {
+    background-color: #333;
+}
+
+.navbar {
+    background-color: #222;
+    border-bottom: solid 2px #d9523a;
+
+}
+
+.navbar-brand img {
+    margin-right: 20p;
+}
+
+.navbar i {
+    font-size: 25px;
+    margin: 5px;
+    color: ghostwhite;
+}
+
+.nav-item {}
+
+.form-control-lg {}
+
+.searchBar {
+    width: 100%;
+}
+
+.searchBar button {
+    /* border: solid 1px #1ec2b9;
+    margin-left: 5px;
+    color: #1ec2b9;*/
+
+    border: solid 2px #d9523a;
+    color: #d9523a;
+    border-radius: 0px;
+    margin-left: 5px;
+}
+
+.searchBar input {
+    background-color: transparent;
+    border: solid 2px ghostwhite;
+    border-radius: 0px;
+}
+
+
+
+
+.categories-section {
+    background-color:
+}
+
+
+.categories {
+    background-color: ;
+    margin 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.option {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background-color: ghostwhite;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 2px ghostwhite;
+}
+
+.main i.fas {
+    font-size: 200%;
+    color: #d9523a;
+    margin-top: 25%;
+
+}
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+.newest {
+    background-color: #222;
+}
+
+.newest .box {
+    width: 300px;
+    margin: 20px 20px;
+    /*background-color: grey;*/
+
+}
+.newest img{
+    width: 270px;
+    margin: 0;
+    padding: 0;
+}
+.newest p{
+    margin:10px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+
+}
+
+footer i {
+    font-size: 25px;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+
+
+
+
+.nav-item i:hover,
+footer i:hover {
+    color: #d9523a;
+    transition: 0.25s;
+}
+
+.option:hover {
+    background-color: transparent;
+    border: solid 2px ghostwhite;
+    transition: 0.25s;
+}
+
+.searchBar button:hover {
+    color: ghostwhite;
+    background-color: #d9523a;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .categories {
+        padding: 0 10%;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) {
+    .searchBar {
+        width: 35%;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .newest .box {
+
+        width: 250px;
+    }
+    .newest img{
+        width: 220px;
+    }
+
+
+}
