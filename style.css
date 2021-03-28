@@ -193,3 +193,12 @@ footer i:hover {
 
 
 }
+@media (min-width: 1200px) {
+.newest .box {
+
+        width: 400px;
+    }
+    .newest img{
+        width: 360px;
+    }
+}
